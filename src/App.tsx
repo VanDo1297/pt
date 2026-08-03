@@ -13,19 +13,32 @@ function App() {
     if (!selected) return null
 
     const day = workoutPlan.find((d) => d.id === selected.dayId)
-    const exercise = day?.exercises.find((e) => e.id === selected.exerciseId)
+    if (!day) return null
 
-    if (!day || !exercise) return null
+    const index = day.exercises.findIndex((e) => e.id === selected.exerciseId)
+    if (index === -1) return null
 
-    return { day, exercise }
+    return { day, exercise: day.exercises[index], index }
   }, [selected])
 
   if (selectedExercise) {
+    const { day, exercise, index } = selectedExercise
+    const prev = index > 0 ? day.exercises[index - 1] : null
+    const next = index < day.exercises.length - 1 ? day.exercises[index + 1] : null
+
     return (
       <ExerciseDetail
-        exercise={selectedExercise.exercise}
-        dayLabel={selectedExercise.day.label}
+        exercise={exercise}
+        dayLabel={day.label}
+        position={index + 1}
+        total={day.exercises.length}
         onBack={() => setSelected(null)}
+        onPrev={
+          prev ? () => setSelected({ dayId: day.id, exerciseId: prev.id }) : undefined
+        }
+        onNext={
+          next ? () => setSelected({ dayId: day.id, exerciseId: next.id }) : undefined
+        }
       />
     )
   }

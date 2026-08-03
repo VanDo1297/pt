@@ -311,6 +311,44 @@ p {
   opacity: 0.7;
 }
 
+.exercise-detail__nav {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+
+.exercise-detail__count {
+  flex-shrink: 0;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+
+.nav-btn {
+  flex: 1;
+  min-height: var(--touch-min);
+  padding: 0 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 0.9375rem;
+}
+
+.nav-btn:active:not(:disabled) {
+  background: var(--accent-soft);
+}
+
+.nav-btn:disabled {
+  color: var(--border);
+  opacity: 0.6;
+}
+
 .exercise-detail__description {
   padding-bottom: 8px;
 }

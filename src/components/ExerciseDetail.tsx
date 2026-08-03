@@ -3,10 +3,22 @@ import type { Exercise } from '../types/workout'
 interface ExerciseDetailProps {
   exercise: Exercise
   dayLabel: string
+  position: number
+  total: number
   onBack: () => void
+  onPrev?: () => void
+  onNext?: () => void
 }
 
-export function ExerciseDetail({ exercise, dayLabel, onBack }: ExerciseDetailProps) {
+export function ExerciseDetail({
+  exercise,
+  dayLabel,
+  position,
+  total,
+  onBack,
+  onPrev,
+  onNext,
+}: ExerciseDetailProps) {
   const hasDescription = exercise.description.some((line) => line.trim().length > 0)
 
   return (
@@ -58,6 +70,28 @@ export function ExerciseDetail({ exercise, dayLabel, onBack }: ExerciseDetailPro
           </ul>
         </div>
       )}
+
+      <nav className="exercise-detail__nav">
+        <button
+          type="button"
+          className="nav-btn"
+          onClick={onPrev}
+          disabled={!onPrev}
+        >
+          ← Bài trước
+        </button>
+        <span className="exercise-detail__count">
+          {position}/{total}
+        </span>
+        <button
+          type="button"
+          className="nav-btn"
+          onClick={onNext}
+          disabled={!onNext}
+        >
+          Bài tiếp →
+        </button>
+      </nav>
     </div>
   )
 }
