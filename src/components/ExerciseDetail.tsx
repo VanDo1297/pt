@@ -41,7 +41,15 @@ export function ExerciseDetail({
       )}
 
       <div className="video-wrapper">
-        <video className="exercise-video" controls playsInline preload="metadata">
+        <video
+          key={exercise.id}
+          className="exercise-video"
+          controls
+          playsInline
+          autoPlay
+          muted
+          preload="metadata"
+        >
           <source src={exercise.videoUrl} type="video/quicktime" />
           Trình duyệt không hỗ trợ phát file .mov.
         </video>
