@@ -1,0 +1,364 @@
+:root {
+  --text: #64748b;
+  --text-h: #0f172a;
+  --bg: #f1f5f9;
+  --surface: #ffffff;
+  --border: #e2e8f0;
+  --accent: #2563eb;
+  --accent-soft: #eff6ff;
+  --radius: 14px;
+  --touch-min: 48px;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-inline: env(safe-area-inset-left, 0px);
+
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #94a3b8;
+    --text-h: #f1f5f9;
+    --bg: #0b1220;
+    --surface: #1e293b;
+    --border: #334155;
+    --accent: #60a5fa;
+    --accent-soft: rgba(96, 165, 250, 0.12);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  overscroll-behavior-y: none;
+}
+
+#root {
+  width: 100%;
+  max-width: 430px;
+  margin: 0 auto;
+  min-height: 100svh;
+  padding:
+    calc(12px + var(--safe-top))
+    calc(16px + var(--safe-inline))
+    calc(24px + var(--safe-bottom));
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+/* Workout plan list */
+.workout-plan__header {
+  margin-bottom: 20px;
+  padding-top: 4px;
+}
+
+.workout-plan__header h1 {
+  font-size: 1.625rem;
+  font-weight: 700;
+  color: var(--text-h);
+  margin-bottom: 4px;
+  letter-spacing: -0.02em;
+}
+
+.workout-plan__header p {
+  font-size: 0.9375rem;
+  color: var(--text);
+}
+
+.workout-plan__days {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Day accordion */
+.day-accordion {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+}
+
+.day-accordion__header {
+  width: 100%;
+  min-height: var(--touch-min);
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 16px;
+  border: none;
+  background: transparent;
+  text-align: left;
+  color: var(--text-h);
+}
+
+.day-accordion__header:active {
+  background: var(--accent-soft);
+}
+
+.day-accordion__info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.day-accordion__label {
+  font-size: 1.0625rem;
+  font-weight: 600;
+}
+
+.day-accordion__focus {
+  font-size: 0.875rem;
+  color: var(--text);
+}
+
+.day-accordion__count {
+  font-size: 0.75rem;
+  color: var(--text);
+  white-space: nowrap;
+}
+
+.day-accordion__chevron {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.day-accordion__exercises {
+  list-style: none;
+  margin: 0;
+  padding: 4px 8px 8px;
+  border-top: 1px solid var(--border);
+}
+
+.exercise-item {
+  width: 100%;
+  min-height: var(--touch-min);
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 10px;
+  margin-top: 2px;
+  border: none;
+  border-radius: 10px;
+  background: transparent;
+  text-align: left;
+  color: var(--text-h);
+}
+
+.exercise-item:active {
+  background: var(--accent-soft);
+}
+
+.exercise-item__index {
+  width: 28px;
+  height: 28px;
+  display: grid;
+  place-items: center;
+  border-radius: 8px;
+  background: var(--bg);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--text);
+  flex-shrink: 0;
+}
+
+.exercise-item__content {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.exercise-item__name {
+  font-weight: 500;
+  font-size: 0.9375rem;
+  line-height: 1.35;
+}
+
+.exercise-item__meta {
+  font-size: 0.8125rem;
+  color: var(--text);
+}
+
+.exercise-item__arrow {
+  color: var(--text);
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+/* Exercise detail */
+.exercise-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.exercise-detail__top {
+  position: sticky;
+  top: var(--safe-top);
+  z-index: 10;
+  margin: calc(-1 * (12px + var(--safe-top))) calc(-1 * (16px + var(--safe-inline))) 0;
+  padding:
+    calc(8px + var(--safe-top))
+    calc(16px + var(--safe-inline))
+    8px;
+  background: color-mix(in srgb, var(--bg) 92%, transparent);
+  backdrop-filter: blur(8px);
+}
+
+.back-btn {
+  min-height: var(--touch-min);
+  padding: 0 4px;
+  border: none;
+  background: transparent;
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.back-btn:active {
+  opacity: 0.7;
+}
+
+.exercise-detail__day {
+  font-size: 0.8125rem;
+  color: var(--text);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 500;
+}
+
+.exercise-detail__title {
+  font-size: 1.375rem;
+  font-weight: 700;
+  color: var(--text-h);
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+}
+
+.exercise-detail__meta {
+  font-size: 0.9375rem;
+  color: var(--text);
+}
+
+.video-wrapper {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: #000;
+}
+
+.exercise-video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  background: #000;
+}
+
+.source-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--touch-min);
+  padding: 0 4px;
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 0.9375rem;
+  text-decoration: none;
+}
+
+.source-link:active {
+  opacity: 0.7;
+}
+
+.exercise-detail__description {
+  padding-bottom: 8px;
+}
+
+.exercise-detail__description h2 {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--text-h);
+  margin-bottom: 8px;
+}
+
+.exercise-detail__description-list {
+  margin: 0;
+  padding-left: 1.125rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.exercise-detail__description-list li {
+  font-size: 0.9375rem;
+  line-height: 1.6;
+}
+
+.exercise-detail__description p {
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  white-space: pre-wrap;
+}
+
+@media (min-width: 768px) {
+  #root {
+    padding-top: calc(24px + var(--safe-top));
+  }
+
+  .workout-plan__header h1 {
+    font-size: 1.875rem;
+  }
+
+  .exercise-detail__title {
+    font-size: 1.625rem;
+  }
+
+  .exercise-item:hover {
+    background: var(--accent-soft);
+  }
+
+  .day-accordion__header:hover {
+    background: var(--accent-soft);
+  }
+}
