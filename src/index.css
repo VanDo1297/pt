@@ -168,6 +168,42 @@ p {
   border-top: 1px solid var(--border);
 }
 
+.session-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 12px 2px 4px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  background: var(--accent-soft);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.session-header:first-child {
+  margin-top: 4px;
+}
+
+.session-header__icon {
+  font-size: 0.95rem;
+}
+
+.session-header__label {
+  font-weight: 700;
+  color: var(--text-h);
+}
+
+.session-header__focus {
+  color: var(--text);
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+.session-header__focus::before {
+  content: '· ';
+}
+
 .exercise-item {
   width: 100%;
   min-height: var(--touch-min);

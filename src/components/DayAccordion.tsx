@@ -33,30 +33,56 @@ export function DayAccordion({
 
       {isOpen && (
         <ul className="day-accordion__exercises">
-          {day.exercises.map((exercise, index) => (
-            <li key={exercise.id}>
-              <button
-                type="button"
-                className="exercise-item"
-                onClick={() => onSelectExercise(exercise.id)}
-              >
-                <span className="exercise-item__index">{index + 1}</span>
-                <span className="exercise-item__content">
-                  <span className="exercise-item__name">{exercise.name}</span>
-                  {(exercise.sets || exercise.reps) && (
-                    <span className="exercise-item__meta">
-                      {[exercise.sets && `${exercise.sets} sets`, exercise.reps && `${exercise.reps} reps`]
-                        .filter(Boolean)
-                        .join(' · ')}
+          {day.exercises.map((exercise, index) => {
+            const isSessionStart =
+              exercise.session &&
+              exercise.session !== day.exercises[index - 1]?.session
+            // Số thứ tự đếm lại từ 1 trong mỗi buổi
+            const sessionIndex =
+              day.exercises
+                .slice(0, index)
+                .filter((e) => e.session === exercise.session).length + 1
+            const focusForSession =
+              exercise.session === 'Sáng'
+                ? day.focus.split(' + ')[0]
+                : day.focus.split(' + ')[1]
+
+            return (
+              <li key={exercise.id}>
+                {isSessionStart && (
+                  <div className={`session-header session-header--${exercise.session === 'Sáng' ? 'am' : 'pm'}`}>
+                    <span className="session-header__icon" aria-hidden="true">
+                      {exercise.session === 'Sáng' ? '🌅' : '🌙'}
                     </span>
-                  )}
-                </span>
-                <span className="exercise-item__arrow" aria-hidden="true">
-                  ›
-                </span>
-              </button>
-            </li>
-          ))}
+                    <span className="session-header__label">{exercise.session}</span>
+                    {focusForSession && (
+                      <span className="session-header__focus">{focusForSession}</span>
+                    )}
+                  </div>
+                )}
+                <button
+                  type="button"
+                  className="exercise-item"
+                  onClick={() => onSelectExercise(exercise.id)}
+                >
+                  <span className="exercise-item__index">{sessionIndex}</span>
+                  <span className="exercise-item__content">
+                    <span className="exercise-item__name">{exercise.name}</span>
+                    {(exercise.sets || exercise.reps) && (
+                      <span className="exercise-item__meta">
+                        {[exercise.sets && `${exercise.sets} sets`, exercise.reps && `${exercise.reps} reps`]
+                          .filter(Boolean)
+                          .join(' · ')}
+                      </span>
+                    )}
+                  </span>
+                  <span className="exercise-item__arrow" aria-hidden="true">
+                    ›
+                  </span>
+                </button>
+              </li>
+            )
+          })}
         </ul>
       )}
     </div>

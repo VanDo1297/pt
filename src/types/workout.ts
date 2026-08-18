@@ -1,6 +1,8 @@
 export interface Exercise {
   id: string
   name: string
+  /** Buổi tập: "Sáng" hoặc "Tối" */
+  session?: string
   description: string[]
   /** File .mov trong `public/videos/`, vd: `/videos/push-up.mov` */
   videoUrl: string
