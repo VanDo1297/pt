@@ -1,4 +1,4 @@
 import plan from './workoutPlan.json'
-import type { WorkoutDay } from '../types/workout'
+import type { WorkoutSession } from '../types/workout'
 
-export const workoutPlan = plan as WorkoutDay[]
+export const workoutPlan = plan as WorkoutSession[]

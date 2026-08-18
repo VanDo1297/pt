@@ -1,146 +1,14 @@
 [
   {
-    "id": "mon",
-    "label": "Thứ 2",
-    "focus": "Tay + Bụng",
+    "id": "mon-am",
+    "day": "Thứ 2",
+    "session": "Sáng",
+    "tag": "Push A",
+    "focus": "Ngực",
     "exercises": [
       {
-        "id": "mon-1",
-        "name": "Dumbbell Bicep Curl",
-        "session": "Sáng",
-        "sets": "3",
-        "reps": "10–15",
-        "description": [
-          "Đứng thẳng, hai chân rộng bằng vai, cầm một quả tạ ở mỗi tay buông dọc thân, lòng bàn tay hướng về phía trước.",
-          "Giữ khuỷu tay cố định sát thân, gập khuỷu cuốn hai quả tạ lên về phía vai, siết cơ tay trước (bắp tay) ở điểm cao nhất.",
-          "Từ từ hạ tạ về vị trí ban đầu có kiểm soát, duỗi thẳng tay hoàn toàn rồi lặp lại. Không đánh đà bằng lưng hay vai."
-        ],
-        "videoUrl": "/videos/tay/dumbbell-bicep-curl.mov",
-        "sourceUrl": ""
-      },
-      {
-        "id": "mon-2",
-        "name": "Alternating Dumbbell Curl",
-        "session": "Sáng",
-        "sets": "3",
-        "reps": "10–15/tay",
-        "description": [
-          "Đứng thẳng, cầm một quả tạ ở mỗi tay buông dọc thân, lòng bàn tay hướng vào thân (neutral).",
-          "Cuốn một tay lên, vừa gập khuỷu vừa xoay cổ tay để lòng bàn tay hướng về phía vai ở điểm cao nhất (supinate), siết bắp tay.",
-          "Hạ tạ về vị trí ban đầu có kiểm soát rồi đổi sang tay kia, thực hiện luân phiên. Giữ khuỷu tay sát thân, không lắc người."
-        ],
-        "videoUrl": "/videos/tay/alternating-dumbbell-curl.mov",
-        "sourceUrl": ""
-      },
-      {
-        "id": "mon-3",
-        "name": "Hammer Curl",
-        "session": "Sáng",
-        "sets": "3",
-        "reps": "10–15",
-        "description": [
-          "Đứng thẳng, cầm một quả tạ ở mỗi tay, lòng bàn tay hướng vào nhau (neutral grip), ngón cái hướng lên.",
-          "Giữ khuỷu tay sát thân, cuốn tạ lên phía vai mà KHÔNG xoay cổ tay (giữ nguyên kiểu cầm búa), siết cơ tay trước và cơ cánh tay dưới (brachialis).",
-          "Từ từ hạ tạ về vị trí ban đầu có kiểm soát rồi lặp lại. Có thể cuốn hai tay cùng lúc hoặc luân phiên."
-        ],
-        "videoUrl": "/videos/tay/hammer-curl.mov",
-        "sourceUrl": ""
-      },
-      {
-        "id": "mon-4",
-        "name": "Dumbbell Overhead Triceps Extension",
-        "session": "Sáng",
-        "sets": "3",
-        "reps": "10–15",
-        "description": [
-          "Đứng hoặc ngồi thẳng lưng, cầm một đầu quả tạ bằng cả hai tay, đưa tạ lên cao qua đầu, tay duỗi thẳng.",
-          "Giữ khuỷu tay cố định và khép hướng về trước (không xòe sang hai bên), gập khuỷu từ từ hạ tạ ra sau đầu đến khi cơ tay sau căng.",
-          "Duỗi khuỷu đẩy tạ trở lại vị trí thẳng trên đầu, siết cơ tay sau. Chỉ di chuyển ở khớp khuỷu, giữ cánh tay trên yên."
-        ],
-        "videoUrl": "/videos/tay/overhead-tricep-extension.mov",
-        "sourceUrl": ""
-      },
-      {
-        "id": "mon-5",
-        "name": "Dumbbell Floor Triceps Extension",
-        "session": "Sáng",
-        "sets": "3",
-        "reps": "10–15",
-        "description": [
-          "Nằm ngửa trên sàn, cầm một quả tạ ở mỗi tay, duỗi hai tay thẳng lên phía trần, lòng bàn tay hướng vào nhau.",
-          "Giữ cánh tay trên cố định (vuông góc sàn), gập khuỷu hạ hai quả tạ về phía hai bên đầu đến khi khuỷu tay chạm nhẹ sàn.",
-          "Duỗi khuỷu đẩy tạ trở lại vị trí thẳng phía trên, siết cơ tay sau ở điểm cao nhất. Chỉ khuỷu tay chuyển động."
-        ],
-        "videoUrl": "/videos/tay/floor-triceps-extension.mov",
-        "sourceUrl": ""
-      },
-      {
-        "id": "mon-6",
-        "name": "Lying Leg Raise",
-        "session": "Tối",
-        "sets": "3",
-        "reps": "10–15",
-        "description": [
-          "Nằm ngửa, hai chân duỗi thẳng khép sát, hai tay đặt xuôi thân hoặc lòng bàn tay úp đặt dưới mông để đỡ lưng dưới.",
-          "Siết cơ bụng dưới, giữ chân thẳng (hoặc hơi chùng gối), từ từ nâng hai chân lên đến khi vuông góc với sàn.",
-          "Hạ chân xuống chậm, dừng ngay trước khi chạm sàn để giữ căng cơ bụng rồi lặp lại. Luôn ép lưng dưới sát sàn, không ưỡn lưng."
-        ],
-        "videoUrl": "/videos/bung/lying-leg-raise.mov",
-        "sourceUrl": ""
-      },
-      {
-        "id": "mon-7",
-        "name": "Crunch",
-        "session": "Tối",
-        "sets": "3",
-        "reps": "15–20",
-        "description": [
-          "Nằm ngửa, co gối, bàn chân đặt phẳng trên sàn, hai tay đặt nhẹ sau đầu hoặc bắt chéo trước ngực (không kéo cổ).",
-          "Siết cơ bụng cuộn phần vai và lưng trên lên khỏi sàn, hướng xương ức về phía hông; giữ lưng dưới áp sát sàn.",
-          "Dừng siết 1 giây ở điểm cao nhất rồi từ từ hạ thân trên xuống có kiểm soát. Không giật cổ hay dùng đà."
-        ],
-        "videoUrl": "/videos/bung/crunch.mov",
-        "sourceUrl": ""
-      },
-      {
-        "id": "mon-8",
-        "name": "Dumbbell Russian Twist",
-        "session": "Tối",
-        "sets": "3",
-        "reps": "12–20/bên",
-        "description": [
-          "Ngồi trên sàn, gối co, ngả thân trên ra sau khoảng 45°, cầm một quả tạ bằng cả hai tay trước bụng.",
-          "Nâng hai bàn chân khỏi sàn để tăng độ khó (hoặc để gót chạm nhẹ sàn nếu cần).",
-          "Siết cơ bụng, xoay thân trên đưa quả tạ sang một bên chạm nhẹ sàn rồi xoay sang bên kia. Xoay từ eo, giữ lưng thẳng; mỗi bên tính một nhịp."
-        ],
-        "videoUrl": "/videos/bung/russian-twist.mov",
-        "sourceUrl": ""
-      },
-      {
-        "id": "mon-9",
-        "name": "Plank",
-        "session": "Tối",
-        "sets": "3",
-        "reps": "30–60 giây",
-        "description": [
-          "Chống hai cẳng tay xuống sàn (khuỷu tay ngay dưới vai) và mũi chân, nâng người lên.",
-          "Giữ thân thành một đường thẳng từ đầu – lưng – hông – gót; siết chặt cơ bụng và cơ mông, hóp nhẹ xương chậu.",
-          "Giữ nguyên tư thế trong thời gian quy định, thở đều. Không để hông võng xuống hay chổng lên, không gồng vai lên tai."
-        ],
-        "videoUrl": "/videos/bung/plank.mov",
-        "sourceUrl": ""
-      }
-    ]
-  },
-  {
-    "id": "tue",
-    "label": "Thứ 3",
-    "focus": "Ngực + Vai",
-    "exercises": [
-      {
-        "id": "tue-1",
+        "id": "mon-am-1",
         "name": "Dumbbell Floor Press",
-        "session": "Sáng",
         "sets": "4",
         "reps": "10–15",
         "description": [
@@ -152,380 +20,8 @@
         "sourceUrl": ""
       },
       {
-        "id": "tue-2",
-        "name": "Dumbbell Squeeze Press",
-        "session": "Sáng",
-        "sets": "3",
-        "reps": "10–15",
-        "description": [
-          "Nằm ngửa trên ghế phẳng (hoặc sàn), giữ hai quả tạ ép sát vào nhau phía trên ngực, lòng bàn tay hướng vào nhau.",
-          "Luôn ép mạnh hai quả tạ vào nhau, gập khuỷu và giữ khuỷu khép sát thân khi hạ tạ xuống chạm giữa ngực.",
-          "Đẩy hai quả tạ thẳng lên trở về vị trí ban đầu, vẫn ép chặt vào nhau suốt động tác để tối đa kích thích cơ ngực trong."
-        ],
-        "videoUrl": "/videos/nguc/dumbbell-squeeze-press.mov",
-        "sourceUrl": ""
-      },
-      {
-        "id": "tue-3",
-        "name": "Dumbbell Floor Fly",
-        "session": "Sáng",
-        "sets": "3",
-        "reps": "10–15",
-        "description": [
-          "Nằm ngửa trên sàn, cầm hai quả tạ phía trên ngực, lòng bàn tay hướng vào nhau, khuỷu tay hơi cong cố định.",
-          "Mở hai tay sang hai bên theo hình vòng cung, giữ nguyên độ cong khuỷu, hạ đến khi khuỷu chạm nhẹ sàn và ngực căng.",
-          "Ép cơ ngực đưa hai quả tạ trở lại phía trên theo cùng vòng cung, siết ngực ở điểm cao nhất. Không gập/duỗi khuỷu như động tác đẩy."
-        ],
-        "videoUrl": "/videos/nguc/dumbbell-floor-fly.mov",
-        "sourceUrl": ""
-      },
-      {
-        "id": "tue-4",
-        "name": "Dumbbell Pullover",
-        "session": "Sáng",
-        "sets": "3",
-        "reps": "10–15",
-        "description": [
-          "Nằm ngửa trên ghế (lưng trên tì ghế) hoặc trên sàn, cầm một đầu quả tạ bằng cả hai tay, đưa thẳng lên phía trên ngực.",
-          "Giữ khuỷu tay chỉ hơi cong cố định, hạ tạ theo vòng cung ra sau đầu bằng cách xoay ở khớp vai đến khi cơ ngực và cơ xô (lats) căng.",
-          "Kéo tạ trở lại vị trí phía trên ngực theo cùng quỹ đạo, siết cơ. Giữ cơ bụng chắc, không ưỡn lưng."
-        ],
-        "videoUrl": "/videos/nguc/dumbbell-pull-over.mov",
-        "sourceUrl": ""
-      },
-      {
-        "id": "tue-5",
-        "name": "Standing Dumbbell Shoulder Press",
-        "session": "Tối",
-        "sets": "3",
-        "reps": "10–15",
-        "description": [
-          "Đứng thẳng, hai chân rộng bằng vai, siết cơ bụng và mông giữ thân ổn định. Cầm một quả tạ ở mỗi tay ngang vai, lòng bàn tay hướng về trước.",
-          "Đẩy hai quả tạ thẳng lên qua đầu đến khi tay gần duỗi hết (không khóa cứng khuỷu), không ngả lưng ra sau.",
-          "Từ từ hạ tạ về ngang vai có kiểm soát rồi lặp lại."
-        ],
-        "videoUrl": "/videos/vai/shoulder-press.mov",
-        "sourceUrl": ""
-      },
-      {
-        "id": "tue-6",
-        "name": "Dumbbell Lateral Raise",
-        "session": "Tối",
-        "sets": "3",
-        "reps": "12–15",
-        "description": [
-          "Đứng thẳng, cầm một quả tạ ở mỗi tay buông dọc thân, lòng bàn tay hướng vào nhau, khuỷu tay hơi cong.",
-          "Giữ khuỷu hơi cong, nâng hai tay sang hai bên (dẫn động bằng cùi chỏ) đến khi cánh tay ngang vai, song song sàn.",
-          "Dừng nhẹ ở điểm cao nhất rồi hạ tay xuống chậm. Không nhún vai hay dùng đà; giữ cổ tay trung tính."
-        ],
-        "videoUrl": "/videos/vai/lateral-raise.mov",
-        "sourceUrl": ""
-      },
-      {
-        "id": "tue-7",
-        "name": "Dumbbell Front Raise",
-        "session": "Tối",
-        "sets": "3",
-        "reps": "10–15",
-        "description": [
-          "Đứng thẳng, cầm một quả tạ ở mỗi tay đặt trước đùi, lòng bàn tay hướng vào đùi.",
-          "Giữ khuỷu tay hơi cong cố định, nâng quả tạ thẳng ra phía trước đến khi ngang vai (có thể một tay hoặc cả hai tay).",
-          "Hạ tạ về vị trí ban đầu chậm rãi rồi lặp lại. Không đánh đà bằng thân, giữ bụng siết."
-        ],
-        "videoUrl": "/videos/vai/front-raise.mov",
-        "sourceUrl": ""
-      },
-      {
-        "id": "tue-8",
-        "name": "Bent-over Rear Delt Fly",
-        "session": "Tối",
-        "sets": "3",
-        "reps": "12–15",
-        "description": [
-          "Cầm một quả tạ ở mỗi tay, hai chân rộng bằng vai, gập người từ hông đến khi thân trên gần song song sàn, lưng thẳng, hai tay buông thẳng xuống dưới ngực, khuỷu hơi cong.",
-          "Giữ khuỷu tay hơi cong, nâng hai tay sang hai bên đến khi ngang vai, dẫn động bằng vai sau và siết hai bả vai.",
-          "Dừng 1 giây ở điểm cao nhất rồi hạ tạ xuống có kiểm soát. Giữ cổ và lưng trung tính, không dùng đà."
-        ],
-        "videoUrl": "/videos/vai/rear-delt-fly.mov",
-        "sourceUrl": ""
-      }
-    ]
-  },
-  {
-    "id": "wed",
-    "label": "Thứ 4",
-    "focus": "Lưng + Chân",
-    "exercises": [
-      {
-        "id": "wed-1",
-        "name": "One-arm Dumbbell Row",
-        "session": "Sáng",
-        "sets": "4",
-        "reps": "10–15/bên",
-        "description": [
-          "Chống một tay và một gối cùng bên lên ghế phẳng, chân kia đặt trên sàn, lưng phẳng gần song song sàn. Tay còn lại cầm quả tạ buông thẳng xuống.",
-          "Kéo quả tạ lên về phía hông, dẫn động bằng khuỷu tay và siết bả vai; giữ khuỷu sát thân, không xoay thân.",
-          "Siết cơ xô 1 giây ở điểm cao nhất rồi hạ tạ xuống chậm, duỗi tay hết tầm. Hoàn tất số lần rồi đổi bên."
-        ],
-        "videoUrl": "/videos/lung/one-arm-row.mov",
-        "sourceUrl": ""
-      },
-      {
-        "id": "wed-2",
-        "name": "Bent-over Dumbbell Row",
-        "session": "Sáng",
-        "sets": "3",
-        "reps": "10–15",
-        "description": [
-          "Đứng hai chân rộng bằng vai, cầm một quả tạ ở mỗi tay. Đẩy hông ra sau, gập người đến khi thân trên gần song song sàn, giữ lưng thẳng.",
-          "Kéo hai quả tạ về phía bụng dưới/hai bên hông, đưa khuỷu tay ra sau và siết chặt bả vai.",
-          "Từ từ hạ tạ xuống có kiểm soát, duỗi tay hết tầm rồi lặp lại. Giữ cổ trung tính, không giật lưng."
-        ],
-        "videoUrl": "/videos/lung/bent-over-row.mov",
-        "sourceUrl": ""
-      },
-      {
-        "id": "wed-3",
-        "name": "Dumbbell Pullover",
-        "session": "Sáng",
-        "sets": "3",
-        "reps": "10–15",
-        "description": [
-          "Nằm ngửa trên ghế (lưng trên tì ghế) hoặc trên sàn, cầm một đầu quả tạ bằng cả hai tay, đưa thẳng lên phía trên ngực.",
-          "Giữ khuỷu tay chỉ hơi cong cố định, hạ tạ theo vòng cung ra sau đầu bằng cách xoay ở khớp vai đến khi cơ ngực và cơ xô (lats) căng.",
-          "Kéo tạ trở lại vị trí phía trên ngực theo cùng quỹ đạo, siết cơ. Giữ cơ bụng chắc, không ưỡn lưng."
-        ],
-        "videoUrl": "/videos/nguc/dumbbell-pull-over.mov",
-        "sourceUrl": ""
-      },
-      {
-        "id": "wed-4",
-        "name": "Dumbbell Reverse Fly",
-        "session": "Sáng",
-        "sets": "3",
-        "reps": "12–15",
-        "description": [
-          "Cầm một quả tạ ở mỗi tay, gập người từ hông đến khi thân trên gần song song sàn, lưng thẳng, hai tay buông thẳng xuống dưới ngực, khuỷu hơi cong.",
-          "Nâng hai tay sang hai bên theo vòng cung đến khi ngang vai, siết chặt cơ vai sau và cơ lưng trên, ép hai bả vai lại gần nhau.",
-          "Dừng 1 giây rồi hạ tạ xuống chậm, có kiểm soát. (Cùng động tác với Rear Delt Fly, nhấn vào lưng trên.)"
-        ],
-        "videoUrl": "/videos/lung/reverse-fly.mov",
-        "sourceUrl": ""
-      },
-      {
-        "id": "wed-5",
-        "name": "Dumbbell Goblet Squat",
-        "session": "Tối",
-        "sets": "4",
-        "reps": "10–15",
-        "description": [
-          "Cầm dọc một quả tạ bằng cả hai tay áp sát trước ngực (giữ ở đầu trên quả tạ), khuỷu tay khép sát thân. Đứng hai chân rộng hơn vai, mũi chân hơi xoay ra ngoài.",
-          "Đẩy hông ra sau và gập gối hạ người xuống đến khi đùi ít nhất song song sàn, giữ lưng thẳng, ngực mở, khuỷu tay đi vào giữa hai gối.",
-          "Đạp qua gót chân đứng lên trở về vị trí ban đầu, siết mông ở trên cùng. Giữ gót luôn chạm sàn, gối đi theo hướng mũi chân."
-        ],
-        "videoUrl": "/videos/chan/goblet-squat.mov",
-        "sourceUrl": ""
-      },
-      {
-        "id": "wed-6",
-        "name": "Dumbbell Romanian Deadlift",
-        "session": "Tối",
-        "sets": "4",
-        "reps": "10–15",
-        "description": [
-          "Đứng hai chân rộng bằng hông, cầm một quả tạ ở mỗi tay đặt trước đùi, lòng bàn tay hướng vào thân.",
-          "Đẩy hông ra sau (hip hinge), gối chỉ hơi chùng, hạ tạ sát dọc theo chân, giữ lưng thẳng và tạ gần thân.",
-          "Hạ đến khi cảm thấy căng rõ cơ đùi sau, sau đó siết mông và đẩy hông về trước để đứng thẳng. Không cong lưng."
-        ],
-        "videoUrl": "/videos/chan/romanian-deadlift.mov",
-        "sourceUrl": ""
-      },
-      {
-        "id": "wed-7",
-        "name": "Dumbbell Bulgarian Split Squat",
-        "session": "Tối",
-        "sets": "3",
-        "reps": "10–12/chân",
-        "description": [
-          "Đứng quay lưng cách ghế một bước, cầm một quả tạ ở mỗi tay buông dọc thân. Đặt mu bàn chân sau lên mặt ghế, chân trước bước ra trước đủ xa.",
-          "Hạ người thẳng xuống bằng cách gập gối chân trước đến khi đùi trước gần song song sàn, thân trên hơi đổ nhẹ về trước, giữ lưng thẳng.",
-          "Đạp qua gót chân trước đẩy người lên về vị trí ban đầu. Giữ gối trước theo hướng mũi chân, không đổ vào trong. Hoàn tất số lần rồi đổi chân."
-        ],
-        "videoUrl": "/videos/chan/bulgarian-split-squat.mov",
-        "sourceUrl": ""
-      },
-      {
-        "id": "wed-8",
-        "name": "Dumbbell Calf Raise",
-        "session": "Tối",
-        "sets": "3",
-        "reps": "15–20",
-        "description": [
-          "Đứng thẳng, cầm một quả tạ ở mỗi tay buông dọc thân. Có thể đứng bằng nửa trước bàn chân trên một bậc/khối để tăng biên độ.",
-          "Kiễng gót lên cao hết mức, dồn trọng lượng lên phần trước bàn chân, siết chặt bắp chân ở điểm cao nhất và dừng 1 giây.",
-          "Hạ gót xuống chậm đến khi bắp chân căng hết rồi lặp lại. Giữ gối gần thẳng, không nhún."
-        ],
-        "videoUrl": "/videos/chan/calf-raise.mov",
-        "sourceUrl": ""
-      }
-    ]
-  },
-  {
-    "id": "thu",
-    "label": "Thứ 5",
-    "focus": "Tay + Bụng",
-    "exercises": [
-      {
-        "id": "thu-1",
-        "name": "Concentration Curl",
-        "session": "Sáng",
-        "sets": "3",
-        "reps": "10–15",
-        "description": [
-          "Ngồi trên ghế, hai chân mở rộng. Cầm một quả tạ bằng một tay, tì mặt sau khuỷu tay vào mặt trong đùi cùng bên, tay duỗi thẳng.",
-          "Giữ cánh tay trên cố định, gập khuỷu cuốn tạ lên về phía vai, siết mạnh bắp tay ở điểm cao nhất.",
-          "Hạ tạ xuống chậm, duỗi thẳng tay hoàn toàn rồi lặp lại. Hoàn tất số lần rồi đổi tay. Không đung đưa vai."
-        ],
-        "videoUrl": "/videos/tay/concentration-curl.mov",
-        "sourceUrl": ""
-      },
-      {
-        "id": "thu-2",
-        "name": "Hammer Curl",
-        "session": "Sáng",
-        "sets": "3",
-        "reps": "10–15",
-        "description": [
-          "Đứng thẳng, cầm một quả tạ ở mỗi tay, lòng bàn tay hướng vào nhau (neutral grip), ngón cái hướng lên.",
-          "Giữ khuỷu tay sát thân, cuốn tạ lên phía vai mà KHÔNG xoay cổ tay (giữ nguyên kiểu cầm búa), siết cơ tay trước và cơ cánh tay dưới (brachialis).",
-          "Từ từ hạ tạ về vị trí ban đầu có kiểm soát rồi lặp lại. Có thể cuốn hai tay cùng lúc hoặc luân phiên."
-        ],
-        "videoUrl": "/videos/tay/hammer-curl.mov",
-        "sourceUrl": ""
-      },
-      {
-        "id": "thu-3",
-        "name": "Reverse Dumbbell Curl",
-        "session": "Sáng",
-        "sets": "3",
-        "reps": "10–15",
-        "description": [
-          "Đứng thẳng, cầm một quả tạ ở mỗi tay buông trước đùi với lòng bàn tay hướng xuống/vào đùi (kiểu cầm úp – pronated).",
-          "Giữ khuỷu tay sát thân, cuốn tạ lên phía vai trong khi vẫn giữ lòng bàn tay úp; siết cơ cẳng tay và cơ tay trước.",
-          "Hạ tạ xuống chậm có kiểm soát rồi lặp lại. Giữ cổ tay chắc, thường dùng mức tạ nhẹ hơn curl thường."
-        ],
-        "videoUrl": "/videos/tay/reverse-curl.mov",
-        "sourceUrl": ""
-      },
-      {
-        "id": "thu-4",
-        "name": "Dumbbell Triceps Kickback",
-        "session": "Sáng",
-        "sets": "3",
-        "reps": "10–15",
-        "description": [
-          "Cầm một quả tạ bằng một tay, gập người từ hông đến khi thân trên gần song song sàn (có thể tì tay/gối kia lên ghế), giữ lưng thẳng.",
-          "Ép cánh tay trên sát thân và song song sàn; duỗi khuỷu đưa quả tạ ra phía sau đến khi tay thẳng hoàn toàn, siết cơ tay sau.",
-          "Gập khuỷu đưa tạ về chậm, giữ cánh tay trên bất động suốt động tác. Hoàn tất số lần rồi đổi tay."
-        ],
-        "videoUrl": "/videos/tay/tricep-kickback.mov",
-        "sourceUrl": ""
-      },
-      {
-        "id": "thu-5",
-        "name": "Dumbbell Overhead Triceps Extension",
-        "session": "Sáng",
-        "sets": "3",
-        "reps": "10–15",
-        "description": [
-          "Đứng hoặc ngồi thẳng lưng, cầm một đầu quả tạ bằng cả hai tay, đưa tạ lên cao qua đầu, tay duỗi thẳng.",
-          "Giữ khuỷu tay cố định và khép hướng về trước (không xòe sang hai bên), gập khuỷu từ từ hạ tạ ra sau đầu đến khi cơ tay sau căng.",
-          "Duỗi khuỷu đẩy tạ trở lại vị trí thẳng trên đầu, siết cơ tay sau. Chỉ di chuyển ở khớp khuỷu, giữ cánh tay trên yên."
-        ],
-        "videoUrl": "/videos/tay/overhead-tricep-extension.mov",
-        "sourceUrl": ""
-      },
-      {
-        "id": "thu-6",
-        "name": "Lying Leg Raise",
-        "session": "Tối",
-        "sets": "3",
-        "reps": "10–15",
-        "description": [
-          "Nằm ngửa, hai chân duỗi thẳng khép sát, hai tay đặt xuôi thân hoặc lòng bàn tay úp đặt dưới mông để đỡ lưng dưới.",
-          "Siết cơ bụng dưới, giữ chân thẳng (hoặc hơi chùng gối), từ từ nâng hai chân lên đến khi vuông góc với sàn.",
-          "Hạ chân xuống chậm, dừng ngay trước khi chạm sàn để giữ căng cơ bụng rồi lặp lại. Luôn ép lưng dưới sát sàn, không ưỡn lưng."
-        ],
-        "videoUrl": "/videos/bung/lying-leg-raise.mov",
-        "sourceUrl": ""
-      },
-      {
-        "id": "thu-7",
-        "name": "Bicycle Crunch",
-        "session": "Tối",
-        "sets": "3",
-        "reps": "15–20/bên",
-        "description": [
-          "Nằm ngửa, hai tay đặt nhẹ sau đầu, nâng hai chân khỏi sàn, gối co khoảng 90°.",
-          "Xoay thân đưa khuỷu tay phải về phía gối trái đồng thời duỗi thẳng chân phải; rồi đổi bên: khuỷu trái về gối phải, duỗi chân trái.",
-          "Luân phiên nhịp nhàng như đạp xe, siết cơ bụng (nhất là cơ chéo). Xoay từ thân, không kéo cổ; mỗi bên tính một nhịp."
-        ],
-        "videoUrl": "/videos/bung/bicycle-crunch.mov",
-        "sourceUrl": ""
-      },
-      {
-        "id": "thu-8",
-        "name": "Reverse Crunch",
-        "session": "Tối",
-        "sets": "3",
-        "reps": "12–20",
-        "description": [
-          "Nằm ngửa, hai tay đặt xuôi thân (hoặc bám nhẹ hai bên), co gối và nâng đùi lên vuông góc sàn.",
-          "Siết cơ bụng dưới cuộn hông và gối về phía ngực, nhấc mông lên khỏi sàn (chuyển động nhỏ, do bụng chứ không do đà).",
-          "Hạ hông và chân xuống chậm có kiểm soát về vị trí ban đầu rồi lặp lại. Không đá chân lấy đà."
-        ],
-        "videoUrl": "/videos/bung/reverse-crunch.mov",
-        "sourceUrl": ""
-      },
-      {
-        "id": "thu-9",
-        "name": "Plank",
-        "session": "Tối",
-        "sets": "3",
-        "reps": "30–60 giây",
-        "description": [
-          "Chống hai cẳng tay xuống sàn (khuỷu tay ngay dưới vai) và mũi chân, nâng người lên.",
-          "Giữ thân thành một đường thẳng từ đầu – lưng – hông – gót; siết chặt cơ bụng và cơ mông, hóp nhẹ xương chậu.",
-          "Giữ nguyên tư thế trong thời gian quy định, thở đều. Không để hông võng xuống hay chổng lên, không gồng vai lên tai."
-        ],
-        "videoUrl": "/videos/bung/plank.mov",
-        "sourceUrl": ""
-      }
-    ]
-  },
-  {
-    "id": "fri",
-    "label": "Thứ 6",
-    "focus": "Ngực + Vai",
-    "exercises": [
-      {
-        "id": "fri-1",
-        "name": "Dumbbell Floor Press",
-        "session": "Sáng",
-        "sets": "4",
-        "reps": "10–15",
-        "description": [
-          "Nằm ngửa trên sàn, gối co, cầm một quả tạ ở mỗi tay duỗi thẳng phía trên ngực, lòng bàn tay hướng về phía chân.",
-          "Hạ tạ xuống có kiểm soát đến khi phần sau khuỷu tay chạm nhẹ sàn, giữ khuỷu tay khoảng 45° so với thân, dừng khoảng 1 giây để loại bỏ đà.",
-          "Đẩy tạ thẳng lên đến khi tay gần duỗi hết (lockout), siết cơ ngực rồi lặp lại."
-        ],
-        "videoUrl": "/videos/nguc/dumbbell-floor-press.mov",
-        "sourceUrl": ""
-      },
-      {
-        "id": "fri-2",
-        "name": "Dumbbell Neutral-grip Press",
-        "session": "Sáng",
+        "id": "mon-am-2",
+        "name": "Neutral-grip Dumbbell Press",
         "sets": "3",
         "reps": "10–15",
         "description": [
@@ -537,23 +33,8 @@
         "sourceUrl": ""
       },
       {
-        "id": "fri-3",
-        "name": "Dumbbell Floor Fly",
-        "session": "Sáng",
-        "sets": "3",
-        "reps": "10–15",
-        "description": [
-          "Nằm ngửa trên sàn, cầm hai quả tạ phía trên ngực, lòng bàn tay hướng vào nhau, khuỷu tay hơi cong cố định.",
-          "Mở hai tay sang hai bên theo hình vòng cung, giữ nguyên độ cong khuỷu, hạ đến khi khuỷu chạm nhẹ sàn và ngực căng.",
-          "Ép cơ ngực đưa hai quả tạ trở lại phía trên theo cùng vòng cung, siết ngực ở điểm cao nhất. Không gập/duỗi khuỷu như động tác đẩy."
-        ],
-        "videoUrl": "/videos/nguc/dumbbell-floor-fly.mov",
-        "sourceUrl": ""
-      },
-      {
-        "id": "fri-4",
+        "id": "mon-am-3",
         "name": "Dumbbell Squeeze Press",
-        "session": "Sáng",
         "sets": "3",
         "reps": "10–15",
         "description": [
@@ -565,10 +46,31 @@
         "sourceUrl": ""
       },
       {
-        "id": "fri-5",
+        "id": "mon-am-4",
+        "name": "Dumbbell Floor Fly",
+        "sets": "3",
+        "reps": "10–15",
+        "description": [
+          "Nằm ngửa trên sàn, cầm hai quả tạ phía trên ngực, lòng bàn tay hướng vào nhau, khuỷu tay hơi cong cố định.",
+          "Mở hai tay sang hai bên theo hình vòng cung, giữ nguyên độ cong khuỷu, hạ đến khi khuỷu chạm nhẹ sàn và ngực căng.",
+          "Ép cơ ngực đưa hai quả tạ trở lại phía trên theo cùng vòng cung, siết ngực ở điểm cao nhất. Không gập/duỗi khuỷu như động tác đẩy."
+        ],
+        "videoUrl": "/videos/nguc/dumbbell-floor-fly.mov",
+        "sourceUrl": ""
+      }
+    ]
+  },
+  {
+    "id": "mon-pm",
+    "day": "Thứ 2",
+    "session": "Tối",
+    "tag": "Push A",
+    "focus": "Vai + Triceps",
+    "exercises": [
+      {
+        "id": "mon-pm-1",
         "name": "Standing Dumbbell Shoulder Press",
-        "session": "Tối",
-        "sets": "4",
+        "sets": "3",
         "reps": "10–15",
         "description": [
           "Đứng thẳng, hai chân rộng bằng vai, siết cơ bụng và mông giữ thân ổn định. Cầm một quả tạ ở mỗi tay ngang vai, lòng bàn tay hướng về trước.",
@@ -579,10 +81,9 @@
         "sourceUrl": ""
       },
       {
-        "id": "fri-6",
+        "id": "mon-pm-2",
         "name": "Dumbbell Lateral Raise",
-        "session": "Tối",
-        "sets": "4",
+        "sets": "3",
         "reps": "12–15",
         "description": [
           "Đứng thẳng, cầm một quả tạ ở mỗi tay buông dọc thân, lòng bàn tay hướng vào nhau, khuỷu tay hơi cong.",
@@ -593,9 +94,8 @@
         "sourceUrl": ""
       },
       {
-        "id": "fri-7",
+        "id": "mon-pm-3",
         "name": "Bent-over Rear Delt Fly",
-        "session": "Tối",
         "sets": "3",
         "reps": "12–15",
         "description": [
@@ -607,30 +107,43 @@
         "sourceUrl": ""
       },
       {
-        "id": "fri-8",
-        "name": "Dumbbell Shrug",
-        "session": "Tối",
+        "id": "mon-pm-4",
+        "name": "Dumbbell Overhead Triceps Extension",
         "sets": "3",
-        "reps": "12–20",
+        "reps": "10–15",
         "description": [
-          "Đứng thẳng, cầm một quả tạ ở mỗi tay buông dọc thân, hai tay duỗi thẳng, vai thả lỏng.",
-          "Nhún hai vai thẳng lên cao về phía tai hết mức, siết chặt cơ cầu vai (traps) ở điểm cao nhất và dừng 1 giây.",
-          "Hạ vai xuống chậm có kiểm soát rồi lặp lại. Giữ tay thẳng (không cuốn khuỷu), không xoay vòng vai."
+          "Đứng hoặc ngồi thẳng lưng, cầm một đầu quả tạ bằng cả hai tay, đưa tạ lên cao qua đầu, tay duỗi thẳng.",
+          "Giữ khuỷu tay cố định và khép hướng về trước (không xòe sang hai bên), gập khuỷu từ từ hạ tạ ra sau đầu đến khi cơ tay sau căng.",
+          "Duỗi khuỷu đẩy tạ trở lại vị trí thẳng trên đầu, siết cơ tay sau. Chỉ di chuyển ở khớp khuỷu, giữ cánh tay trên yên."
         ],
-        "videoUrl": "/videos/vai/shrug.mov",
+        "videoUrl": "/videos/tay/overhead-tricep-extension.mov",
+        "sourceUrl": ""
+      },
+      {
+        "id": "mon-pm-5",
+        "name": "Dumbbell Floor Triceps Extension",
+        "sets": "3",
+        "reps": "10–15",
+        "description": [
+          "Nằm ngửa trên sàn, cầm một quả tạ ở mỗi tay, duỗi hai tay thẳng lên phía trần, lòng bàn tay hướng vào nhau.",
+          "Giữ cánh tay trên cố định (vuông góc sàn), gập khuỷu hạ hai quả tạ về phía hai bên đầu đến khi khuỷu tay chạm nhẹ sàn.",
+          "Duỗi khuỷu đẩy tạ trở lại vị trí thẳng phía trên, siết cơ tay sau ở điểm cao nhất. Chỉ khuỷu tay chuyển động."
+        ],
+        "videoUrl": "/videos/tay/floor-triceps-extension.mov",
         "sourceUrl": ""
       }
     ]
   },
   {
-    "id": "sat",
-    "label": "Thứ 7",
-    "focus": "Lưng + Chân",
+    "id": "tue-am",
+    "day": "Thứ 3",
+    "session": "Sáng",
+    "tag": "Pull A",
+    "focus": "Lưng",
     "exercises": [
       {
-        "id": "sat-1",
+        "id": "tue-am-1",
         "name": "One-arm Dumbbell Row",
-        "session": "Sáng",
         "sets": "4",
         "reps": "10–15/bên",
         "description": [
@@ -642,9 +155,8 @@
         "sourceUrl": ""
       },
       {
-        "id": "sat-2",
-        "name": "Dumbbell Row",
-        "session": "Sáng",
+        "id": "tue-am-2",
+        "name": "Bent-over Dumbbell Row",
         "sets": "3",
         "reps": "10–15",
         "description": [
@@ -656,9 +168,8 @@
         "sourceUrl": ""
       },
       {
-        "id": "sat-3",
+        "id": "tue-am-3",
         "name": "Dumbbell Pullover",
-        "session": "Sáng",
         "sets": "3",
         "reps": "10–15",
         "description": [
@@ -670,23 +181,91 @@
         "sourceUrl": ""
       },
       {
-        "id": "sat-4",
-        "name": "Dumbbell Shrug",
-        "session": "Sáng",
+        "id": "tue-am-4",
+        "name": "Dumbbell Reverse Fly",
         "sets": "3",
-        "reps": "12–20",
+        "reps": "12–15",
         "description": [
-          "Đứng thẳng, cầm một quả tạ ở mỗi tay buông dọc thân, hai tay duỗi thẳng, vai thả lỏng.",
-          "Nhún hai vai thẳng lên cao về phía tai hết mức, siết chặt cơ cầu vai (traps) ở điểm cao nhất và dừng 1 giây.",
-          "Hạ vai xuống chậm có kiểm soát rồi lặp lại. Giữ tay thẳng (không cuốn khuỷu), không xoay vòng vai."
+          "Cầm một quả tạ ở mỗi tay, gập người từ hông đến khi thân trên gần song song sàn, lưng thẳng, hai tay buông thẳng xuống dưới ngực, khuỷu hơi cong.",
+          "Nâng hai tay sang hai bên theo vòng cung đến khi ngang vai, siết chặt cơ vai sau và cơ lưng trên, ép hai bả vai lại gần nhau.",
+          "Dừng 1 giây rồi hạ tạ xuống chậm, có kiểm soát. (Cùng động tác với Rear Delt Fly, nhấn vào lưng trên.)"
         ],
-        "videoUrl": "/videos/lung/shrug.mov",
+        "videoUrl": "/videos/lung/reverse-fly.mov",
+        "sourceUrl": ""
+      }
+    ]
+  },
+  {
+    "id": "tue-pm",
+    "day": "Thứ 3",
+    "session": "Tối",
+    "tag": "Pull A",
+    "focus": "Biceps + Forearms",
+    "exercises": [
+      {
+        "id": "tue-pm-1",
+        "name": "Dumbbell Bicep Curl",
+        "sets": "3",
+        "reps": "10–15",
+        "description": [
+          "Đứng thẳng, hai chân rộng bằng vai, cầm một quả tạ ở mỗi tay buông dọc thân, lòng bàn tay hướng về phía trước.",
+          "Giữ khuỷu tay cố định sát thân, gập khuỷu cuốn hai quả tạ lên về phía vai, siết cơ tay trước (bắp tay) ở điểm cao nhất.",
+          "Từ từ hạ tạ về vị trí ban đầu có kiểm soát, duỗi thẳng tay hoàn toàn rồi lặp lại. Không đánh đà bằng lưng hay vai."
+        ],
+        "videoUrl": "/videos/tay/dumbbell-bicep-curl.mov",
         "sourceUrl": ""
       },
       {
-        "id": "sat-5",
-        "name": "Dumbbell Goblet Squat",
-        "session": "Tối",
+        "id": "tue-pm-2",
+        "name": "Alternating Dumbbell Curl",
+        "sets": "3",
+        "reps": "10–15/bên",
+        "description": [
+          "Đứng thẳng, cầm một quả tạ ở mỗi tay buông dọc thân, lòng bàn tay hướng vào thân (neutral).",
+          "Cuốn một tay lên, vừa gập khuỷu vừa xoay cổ tay để lòng bàn tay hướng về phía vai ở điểm cao nhất (supinate), siết bắp tay.",
+          "Hạ tạ về vị trí ban đầu có kiểm soát rồi đổi sang tay kia, thực hiện luân phiên. Giữ khuỷu tay sát thân, không lắc người."
+        ],
+        "videoUrl": "/videos/tay/alternating-dumbbell-curl.mov",
+        "sourceUrl": ""
+      },
+      {
+        "id": "tue-pm-3",
+        "name": "Hammer Curl",
+        "sets": "3",
+        "reps": "10–15",
+        "description": [
+          "Đứng thẳng, cầm một quả tạ ở mỗi tay, lòng bàn tay hướng vào nhau (neutral grip), ngón cái hướng lên.",
+          "Giữ khuỷu tay sát thân, cuốn tạ lên phía vai mà KHÔNG xoay cổ tay (giữ nguyên kiểu cầm búa), siết cơ tay trước và cơ cánh tay dưới (brachialis).",
+          "Từ từ hạ tạ về vị trí ban đầu có kiểm soát rồi lặp lại. Có thể cuốn hai tay cùng lúc hoặc luân phiên."
+        ],
+        "videoUrl": "/videos/tay/hammer-curl.mov",
+        "sourceUrl": ""
+      },
+      {
+        "id": "tue-pm-4",
+        "name": "Reverse Dumbbell Curl",
+        "sets": "3",
+        "reps": "10–15",
+        "description": [
+          "Đứng thẳng, cầm một quả tạ ở mỗi tay buông trước đùi với lòng bàn tay hướng xuống/vào đùi (kiểu cầm úp – pronated).",
+          "Giữ khuỷu tay sát thân, cuốn tạ lên phía vai trong khi vẫn giữ lòng bàn tay úp; siết cơ cẳng tay và cơ tay trước.",
+          "Hạ tạ xuống chậm có kiểm soát rồi lặp lại. Giữ cổ tay chắc, thường dùng mức tạ nhẹ hơn curl thường."
+        ],
+        "videoUrl": "/videos/tay/reverse-curl.mov",
+        "sourceUrl": ""
+      }
+    ]
+  },
+  {
+    "id": "wed-am",
+    "day": "Thứ 4",
+    "session": "Sáng",
+    "tag": "Legs A",
+    "focus": "Đùi + Mông",
+    "exercises": [
+      {
+        "id": "wed-am-1",
+        "name": "Goblet Squat",
         "sets": "4",
         "reps": "10–15",
         "description": [
@@ -698,9 +277,8 @@
         "sourceUrl": ""
       },
       {
-        "id": "sat-6",
+        "id": "wed-am-2",
         "name": "Dumbbell Romanian Deadlift",
-        "session": "Tối",
         "sets": "4",
         "reps": "10–15",
         "description": [
@@ -712,9 +290,400 @@
         "sourceUrl": ""
       },
       {
-        "id": "sat-7",
-        "name": "Dumbbell Reverse Lunge",
-        "session": "Tối",
+        "id": "wed-am-3",
+        "name": "Bulgarian Split Squat",
+        "sets": "3",
+        "reps": "10–12/chân",
+        "description": [
+          "Đứng quay lưng cách ghế một bước, cầm một quả tạ ở mỗi tay buông dọc thân. Đặt mu bàn chân sau lên mặt ghế, chân trước bước ra trước đủ xa.",
+          "Hạ người thẳng xuống bằng cách gập gối chân trước đến khi đùi trước gần song song sàn, thân trên hơi đổ nhẹ về trước, giữ lưng thẳng.",
+          "Đạp qua gót chân trước đẩy người lên về vị trí ban đầu. Giữ gối trước theo hướng mũi chân, không đổ vào trong. Hoàn tất số lần rồi đổi chân."
+        ],
+        "videoUrl": "/videos/chan/bulgarian-split-squat.mov",
+        "sourceUrl": ""
+      },
+      {
+        "id": "wed-am-4",
+        "name": "Dumbbell Glute Bridge",
+        "sets": "3",
+        "reps": "12–20",
+        "description": [
+          "Nằm ngửa, co gối, hai bàn chân đặt phẳng trên sàn rộng bằng hông. Đặt một quả tạ nằm ngang trên hông và giữ nhẹ bằng hai tay.",
+          "Đạp qua gót chân, siết mông đẩy hông lên cao đến khi thân trên – hông – đùi thành một đường thẳng, siết chặt mông ở điểm cao nhất.",
+          "Từ từ hạ hông xuống gần chạm sàn có kiểm soát rồi lặp lại. Giữ cơ bụng siết, không ưỡn lưng dưới."
+        ],
+        "videoUrl": "",
+        "sourceUrl": ""
+      }
+    ]
+  },
+  {
+    "id": "wed-pm",
+    "day": "Thứ 4",
+    "session": "Tối",
+    "tag": "Legs A",
+    "focus": "Bắp chân + Core",
+    "exercises": [
+      {
+        "id": "wed-pm-1",
+        "name": "Dumbbell Calf Raise",
+        "sets": "4",
+        "reps": "15–20",
+        "description": [
+          "Đứng thẳng, cầm một quả tạ ở mỗi tay buông dọc thân. Có thể đứng bằng nửa trước bàn chân trên một bậc/khối để tăng biên độ.",
+          "Kiễng gót lên cao hết mức, dồn trọng lượng lên phần trước bàn chân, siết chặt bắp chân ở điểm cao nhất và dừng 1 giây.",
+          "Hạ gót xuống chậm đến khi bắp chân căng hết rồi lặp lại. Giữ gối gần thẳng, không nhún."
+        ],
+        "videoUrl": "/videos/chan/calf-raise.mov",
+        "sourceUrl": ""
+      },
+      {
+        "id": "wed-pm-2",
+        "name": "Lying Leg Raise",
+        "sets": "3",
+        "reps": "10–15",
+        "description": [
+          "Nằm ngửa, hai chân duỗi thẳng khép sát, hai tay đặt xuôi thân hoặc lòng bàn tay úp đặt dưới mông để đỡ lưng dưới.",
+          "Siết cơ bụng dưới, giữ chân thẳng (hoặc hơi chùng gối), từ từ nâng hai chân lên đến khi vuông góc với sàn.",
+          "Hạ chân xuống chậm, dừng ngay trước khi chạm sàn để giữ căng cơ bụng rồi lặp lại. Luôn ép lưng dưới sát sàn, không ưỡn lưng."
+        ],
+        "videoUrl": "/videos/bung/lying-leg-raise.mov",
+        "sourceUrl": ""
+      },
+      {
+        "id": "wed-pm-3",
+        "name": "Crunch",
+        "sets": "3",
+        "reps": "15–20",
+        "description": [
+          "Nằm ngửa, co gối, bàn chân đặt phẳng trên sàn, hai tay đặt nhẹ sau đầu hoặc bắt chéo trước ngực (không kéo cổ).",
+          "Siết cơ bụng cuộn phần vai và lưng trên lên khỏi sàn, hướng xương ức về phía hông; giữ lưng dưới áp sát sàn.",
+          "Dừng siết 1 giây ở điểm cao nhất rồi từ từ hạ thân trên xuống có kiểm soát. Không giật cổ hay dùng đà."
+        ],
+        "videoUrl": "/videos/bung/crunch.mov",
+        "sourceUrl": ""
+      },
+      {
+        "id": "wed-pm-4",
+        "name": "Plank",
+        "sets": "3",
+        "reps": "30–60 giây",
+        "description": [
+          "Chống hai cẳng tay xuống sàn (khuỷu tay ngay dưới vai) và mũi chân, nâng người lên.",
+          "Giữ thân thành một đường thẳng từ đầu – lưng – hông – gót; siết chặt cơ bụng và cơ mông, hóp nhẹ xương chậu.",
+          "Giữ nguyên tư thế trong thời gian quy định, thở đều. Không để hông võng xuống hay chổng lên, không gồng vai lên tai."
+        ],
+        "videoUrl": "/videos/bung/plank.mov",
+        "sourceUrl": ""
+      }
+    ]
+  },
+  {
+    "id": "thu-am",
+    "day": "Thứ 5",
+    "session": "Sáng",
+    "tag": "Push B",
+    "focus": "Ngực",
+    "exercises": [
+      {
+        "id": "thu-am-1",
+        "name": "Dumbbell Squeeze Press",
+        "sets": "3",
+        "reps": "10–15",
+        "description": [
+          "Nằm ngửa trên ghế phẳng (hoặc sàn), giữ hai quả tạ ép sát vào nhau phía trên ngực, lòng bàn tay hướng vào nhau.",
+          "Luôn ép mạnh hai quả tạ vào nhau, gập khuỷu và giữ khuỷu khép sát thân khi hạ tạ xuống chạm giữa ngực.",
+          "Đẩy hai quả tạ thẳng lên trở về vị trí ban đầu, vẫn ép chặt vào nhau suốt động tác để tối đa kích thích cơ ngực trong."
+        ],
+        "videoUrl": "/videos/nguc/dumbbell-squeeze-press.mov",
+        "sourceUrl": ""
+      },
+      {
+        "id": "thu-am-2",
+        "name": "Dumbbell Floor Press",
+        "sets": "4",
+        "reps": "10–15",
+        "description": [
+          "Nằm ngửa trên sàn, gối co, cầm một quả tạ ở mỗi tay duỗi thẳng phía trên ngực, lòng bàn tay hướng về phía chân.",
+          "Hạ tạ xuống có kiểm soát đến khi phần sau khuỷu tay chạm nhẹ sàn, giữ khuỷu tay khoảng 45° so với thân, dừng khoảng 1 giây để loại bỏ đà.",
+          "Đẩy tạ thẳng lên đến khi tay gần duỗi hết (lockout), siết cơ ngực rồi lặp lại."
+        ],
+        "videoUrl": "/videos/nguc/dumbbell-floor-press.mov",
+        "sourceUrl": ""
+      },
+      {
+        "id": "thu-am-3",
+        "name": "Neutral-grip Dumbbell Press",
+        "sets": "3",
+        "reps": "10–15",
+        "description": [
+          "Nằm ngửa trên sàn (hoặc ghế), cầm một quả tạ ở mỗi tay duỗi thẳng trên ngực, hai lòng bàn tay hướng vào nhau (neutral grip).",
+          "Giữ khuỷu tay khép sát thân, hạ tạ xuống đến khi khuỷu chạm nhẹ sàn, dừng khoảng 1 giây.",
+          "Đẩy tạ thẳng lên đến khi tay gần duỗi hết, siết cơ ngực. Kiểu cầm neutral thân thiện với khớp vai hơn."
+        ],
+        "videoUrl": "/videos/nguc/neutral-grip-press.mov",
+        "sourceUrl": ""
+      },
+      {
+        "id": "thu-am-4",
+        "name": "Dumbbell Floor Fly",
+        "sets": "3",
+        "reps": "10–15",
+        "description": [
+          "Nằm ngửa trên sàn, cầm hai quả tạ phía trên ngực, lòng bàn tay hướng vào nhau, khuỷu tay hơi cong cố định.",
+          "Mở hai tay sang hai bên theo hình vòng cung, giữ nguyên độ cong khuỷu, hạ đến khi khuỷu chạm nhẹ sàn và ngực căng.",
+          "Ép cơ ngực đưa hai quả tạ trở lại phía trên theo cùng vòng cung, siết ngực ở điểm cao nhất. Không gập/duỗi khuỷu như động tác đẩy."
+        ],
+        "videoUrl": "/videos/nguc/dumbbell-floor-fly.mov",
+        "sourceUrl": ""
+      }
+    ]
+  },
+  {
+    "id": "thu-pm",
+    "day": "Thứ 5",
+    "session": "Tối",
+    "tag": "Push B",
+    "focus": "Vai + Triceps",
+    "exercises": [
+      {
+        "id": "thu-pm-1",
+        "name": "Standing Dumbbell Shoulder Press",
+        "sets": "4",
+        "reps": "10–15",
+        "description": [
+          "Đứng thẳng, hai chân rộng bằng vai, siết cơ bụng và mông giữ thân ổn định. Cầm một quả tạ ở mỗi tay ngang vai, lòng bàn tay hướng về trước.",
+          "Đẩy hai quả tạ thẳng lên qua đầu đến khi tay gần duỗi hết (không khóa cứng khuỷu), không ngả lưng ra sau.",
+          "Từ từ hạ tạ về ngang vai có kiểm soát rồi lặp lại."
+        ],
+        "videoUrl": "/videos/vai/shoulder-press.mov",
+        "sourceUrl": ""
+      },
+      {
+        "id": "thu-pm-2",
+        "name": "Dumbbell Lateral Raise",
+        "sets": "4",
+        "reps": "12–15",
+        "description": [
+          "Đứng thẳng, cầm một quả tạ ở mỗi tay buông dọc thân, lòng bàn tay hướng vào nhau, khuỷu tay hơi cong.",
+          "Giữ khuỷu hơi cong, nâng hai tay sang hai bên (dẫn động bằng cùi chỏ) đến khi cánh tay ngang vai, song song sàn.",
+          "Dừng nhẹ ở điểm cao nhất rồi hạ tay xuống chậm. Không nhún vai hay dùng đà; giữ cổ tay trung tính."
+        ],
+        "videoUrl": "/videos/vai/lateral-raise.mov",
+        "sourceUrl": ""
+      },
+      {
+        "id": "thu-pm-3",
+        "name": "Dumbbell Front Raise",
+        "sets": "3",
+        "reps": "10–15",
+        "description": [
+          "Đứng thẳng, cầm một quả tạ ở mỗi tay đặt trước đùi, lòng bàn tay hướng vào đùi.",
+          "Giữ khuỷu tay hơi cong cố định, nâng quả tạ thẳng ra phía trước đến khi ngang vai (có thể một tay hoặc cả hai tay).",
+          "Hạ tạ về vị trí ban đầu chậm rãi rồi lặp lại. Không đánh đà bằng thân, giữ bụng siết."
+        ],
+        "videoUrl": "/videos/vai/front-raise.mov",
+        "sourceUrl": ""
+      },
+      {
+        "id": "thu-pm-4",
+        "name": "Bent-over Rear Delt Fly",
+        "sets": "3",
+        "reps": "12–15",
+        "description": [
+          "Cầm một quả tạ ở mỗi tay, hai chân rộng bằng vai, gập người từ hông đến khi thân trên gần song song sàn, lưng thẳng, hai tay buông thẳng xuống dưới ngực, khuỷu hơi cong.",
+          "Giữ khuỷu tay hơi cong, nâng hai tay sang hai bên đến khi ngang vai, dẫn động bằng vai sau và siết hai bả vai.",
+          "Dừng 1 giây ở điểm cao nhất rồi hạ tạ xuống có kiểm soát. Giữ cổ và lưng trung tính, không dùng đà."
+        ],
+        "videoUrl": "/videos/vai/rear-delt-fly.mov",
+        "sourceUrl": ""
+      },
+      {
+        "id": "thu-pm-5",
+        "name": "Dumbbell Kickback",
+        "sets": "3",
+        "reps": "10–15",
+        "description": [
+          "Cầm một quả tạ bằng một tay, gập người từ hông đến khi thân trên gần song song sàn (có thể tì tay/gối kia lên ghế), giữ lưng thẳng.",
+          "Ép cánh tay trên sát thân và song song sàn; duỗi khuỷu đưa quả tạ ra phía sau đến khi tay thẳng hoàn toàn, siết cơ tay sau.",
+          "Gập khuỷu đưa tạ về chậm, giữ cánh tay trên bất động suốt động tác. Hoàn tất số lần rồi đổi tay."
+        ],
+        "videoUrl": "/videos/tay/tricep-kickback.mov",
+        "sourceUrl": ""
+      },
+      {
+        "id": "thu-pm-6",
+        "name": "Dumbbell Overhead Triceps Extension",
+        "sets": "3",
+        "reps": "10–15",
+        "description": [
+          "Đứng hoặc ngồi thẳng lưng, cầm một đầu quả tạ bằng cả hai tay, đưa tạ lên cao qua đầu, tay duỗi thẳng.",
+          "Giữ khuỷu tay cố định và khép hướng về trước (không xòe sang hai bên), gập khuỷu từ từ hạ tạ ra sau đầu đến khi cơ tay sau căng.",
+          "Duỗi khuỷu đẩy tạ trở lại vị trí thẳng trên đầu, siết cơ tay sau. Chỉ di chuyển ở khớp khuỷu, giữ cánh tay trên yên."
+        ],
+        "videoUrl": "/videos/tay/overhead-tricep-extension.mov",
+        "sourceUrl": ""
+      }
+    ]
+  },
+  {
+    "id": "fri-am",
+    "day": "Thứ 6",
+    "session": "Sáng",
+    "tag": "Pull B",
+    "focus": "Lưng",
+    "exercises": [
+      {
+        "id": "fri-am-1",
+        "name": "Bent-over Dumbbell Row",
+        "sets": "4",
+        "reps": "10–15",
+        "description": [
+          "Đứng hai chân rộng bằng vai, cầm một quả tạ ở mỗi tay. Đẩy hông ra sau, gập người đến khi thân trên gần song song sàn, giữ lưng thẳng.",
+          "Kéo hai quả tạ về phía bụng dưới/hai bên hông, đưa khuỷu tay ra sau và siết chặt bả vai.",
+          "Từ từ hạ tạ xuống có kiểm soát, duỗi tay hết tầm rồi lặp lại. Giữ cổ trung tính, không giật lưng."
+        ],
+        "videoUrl": "/videos/lung/bent-over-row.mov",
+        "sourceUrl": ""
+      },
+      {
+        "id": "fri-am-2",
+        "name": "One-arm Dumbbell Row",
+        "sets": "4",
+        "reps": "10–15/bên",
+        "description": [
+          "Chống một tay và một gối cùng bên lên ghế phẳng, chân kia đặt trên sàn, lưng phẳng gần song song sàn. Tay còn lại cầm quả tạ buông thẳng xuống.",
+          "Kéo quả tạ lên về phía hông, dẫn động bằng khuỷu tay và siết bả vai; giữ khuỷu sát thân, không xoay thân.",
+          "Siết cơ xô 1 giây ở điểm cao nhất rồi hạ tạ xuống chậm, duỗi tay hết tầm. Hoàn tất số lần rồi đổi bên."
+        ],
+        "videoUrl": "/videos/lung/one-arm-row.mov",
+        "sourceUrl": ""
+      },
+      {
+        "id": "fri-am-3",
+        "name": "Dumbbell Pullover",
+        "sets": "3",
+        "reps": "10–15",
+        "description": [
+          "Nằm ngửa trên ghế (lưng trên tì ghế) hoặc trên sàn, cầm một đầu quả tạ bằng cả hai tay, đưa thẳng lên phía trên ngực.",
+          "Giữ khuỷu tay chỉ hơi cong cố định, hạ tạ theo vòng cung ra sau đầu bằng cách xoay ở khớp vai đến khi cơ ngực và cơ xô (lats) căng.",
+          "Kéo tạ trở lại vị trí phía trên ngực theo cùng quỹ đạo, siết cơ. Giữ cơ bụng chắc, không ưỡn lưng."
+        ],
+        "videoUrl": "/videos/nguc/dumbbell-pull-over.mov",
+        "sourceUrl": ""
+      },
+      {
+        "id": "fri-am-4",
+        "name": "Dumbbell Reverse Fly",
+        "sets": "3",
+        "reps": "12–15",
+        "description": [
+          "Cầm một quả tạ ở mỗi tay, gập người từ hông đến khi thân trên gần song song sàn, lưng thẳng, hai tay buông thẳng xuống dưới ngực, khuỷu hơi cong.",
+          "Nâng hai tay sang hai bên theo vòng cung đến khi ngang vai, siết chặt cơ vai sau và cơ lưng trên, ép hai bả vai lại gần nhau.",
+          "Dừng 1 giây rồi hạ tạ xuống chậm, có kiểm soát. (Cùng động tác với Rear Delt Fly, nhấn vào lưng trên.)"
+        ],
+        "videoUrl": "/videos/lung/reverse-fly.mov",
+        "sourceUrl": ""
+      }
+    ]
+  },
+  {
+    "id": "fri-pm",
+    "day": "Thứ 6",
+    "session": "Tối",
+    "tag": "Pull B",
+    "focus": "Biceps + Forearms",
+    "exercises": [
+      {
+        "id": "fri-pm-1",
+        "name": "Concentration Curl",
+        "sets": "3",
+        "reps": "10–15",
+        "description": [
+          "Ngồi trên ghế, hai chân mở rộng. Cầm một quả tạ bằng một tay, tì mặt sau khuỷu tay vào mặt trong đùi cùng bên, tay duỗi thẳng.",
+          "Giữ cánh tay trên cố định, gập khuỷu cuốn tạ lên về phía vai, siết mạnh bắp tay ở điểm cao nhất.",
+          "Hạ tạ xuống chậm, duỗi thẳng tay hoàn toàn rồi lặp lại. Hoàn tất số lần rồi đổi tay. Không đung đưa vai."
+        ],
+        "videoUrl": "/videos/tay/concentration-curl.mov",
+        "sourceUrl": ""
+      },
+      {
+        "id": "fri-pm-2",
+        "name": "Hammer Curl",
+        "sets": "3",
+        "reps": "10–15",
+        "description": [
+          "Đứng thẳng, cầm một quả tạ ở mỗi tay, lòng bàn tay hướng vào nhau (neutral grip), ngón cái hướng lên.",
+          "Giữ khuỷu tay sát thân, cuốn tạ lên phía vai mà KHÔNG xoay cổ tay (giữ nguyên kiểu cầm búa), siết cơ tay trước và cơ cánh tay dưới (brachialis).",
+          "Từ từ hạ tạ về vị trí ban đầu có kiểm soát rồi lặp lại. Có thể cuốn hai tay cùng lúc hoặc luân phiên."
+        ],
+        "videoUrl": "/videos/tay/hammer-curl.mov",
+        "sourceUrl": ""
+      },
+      {
+        "id": "fri-pm-3",
+        "name": "Reverse Dumbbell Curl",
+        "sets": "3",
+        "reps": "10–15",
+        "description": [
+          "Đứng thẳng, cầm một quả tạ ở mỗi tay buông trước đùi với lòng bàn tay hướng xuống/vào đùi (kiểu cầm úp – pronated).",
+          "Giữ khuỷu tay sát thân, cuốn tạ lên phía vai trong khi vẫn giữ lòng bàn tay úp; siết cơ cẳng tay và cơ tay trước.",
+          "Hạ tạ xuống chậm có kiểm soát rồi lặp lại. Giữ cổ tay chắc, thường dùng mức tạ nhẹ hơn curl thường."
+        ],
+        "videoUrl": "/videos/tay/reverse-curl.mov",
+        "sourceUrl": ""
+      },
+      {
+        "id": "fri-pm-4",
+        "name": "Alternating Dumbbell Curl",
+        "sets": "3",
+        "reps": "10–15/bên",
+        "description": [
+          "Đứng thẳng, cầm một quả tạ ở mỗi tay buông dọc thân, lòng bàn tay hướng vào thân (neutral).",
+          "Cuốn một tay lên, vừa gập khuỷu vừa xoay cổ tay để lòng bàn tay hướng về phía vai ở điểm cao nhất (supinate), siết bắp tay.",
+          "Hạ tạ về vị trí ban đầu có kiểm soát rồi đổi sang tay kia, thực hiện luân phiên. Giữ khuỷu tay sát thân, không lắc người."
+        ],
+        "videoUrl": "/videos/tay/alternating-dumbbell-curl.mov",
+        "sourceUrl": ""
+      }
+    ]
+  },
+  {
+    "id": "sat-am",
+    "day": "Thứ 7",
+    "session": "Sáng",
+    "tag": "Legs B",
+    "focus": "Đùi + Mông",
+    "exercises": [
+      {
+        "id": "sat-am-1",
+        "name": "Dumbbell Romanian Deadlift",
+        "sets": "4",
+        "reps": "10–15",
+        "description": [
+          "Đứng hai chân rộng bằng hông, cầm một quả tạ ở mỗi tay đặt trước đùi, lòng bàn tay hướng vào thân.",
+          "Đẩy hông ra sau (hip hinge), gối chỉ hơi chùng, hạ tạ sát dọc theo chân, giữ lưng thẳng và tạ gần thân.",
+          "Hạ đến khi cảm thấy căng rõ cơ đùi sau, sau đó siết mông và đẩy hông về trước để đứng thẳng. Không cong lưng."
+        ],
+        "videoUrl": "/videos/chan/romanian-deadlift.mov",
+        "sourceUrl": ""
+      },
+      {
+        "id": "sat-am-2",
+        "name": "Goblet Squat",
+        "sets": "3",
+        "reps": "10–15",
+        "description": [
+          "Cầm dọc một quả tạ bằng cả hai tay áp sát trước ngực (giữ ở đầu trên quả tạ), khuỷu tay khép sát thân. Đứng hai chân rộng hơn vai, mũi chân hơi xoay ra ngoài.",
+          "Đẩy hông ra sau và gập gối hạ người xuống đến khi đùi ít nhất song song sàn, giữ lưng thẳng, ngực mở, khuỷu tay đi vào giữa hai gối.",
+          "Đạp qua gót chân đứng lên trở về vị trí ban đầu, siết mông ở trên cùng. Giữ gót luôn chạm sàn, gối đi theo hướng mũi chân."
+        ],
+        "videoUrl": "/videos/chan/goblet-squat.mov",
+        "sourceUrl": ""
+      },
+      {
+        "id": "sat-am-3",
+        "name": "Reverse Lunge",
         "sets": "3",
         "reps": "10–12/chân",
         "description": [
@@ -726,10 +695,31 @@
         "sourceUrl": ""
       },
       {
-        "id": "sat-8",
-        "name": "Dumbbell Calf Raise",
-        "session": "Tối",
+        "id": "sat-am-4",
+        "name": "Dumbbell Glute Bridge",
         "sets": "3",
+        "reps": "12–20",
+        "description": [
+          "Nằm ngửa, co gối, hai bàn chân đặt phẳng trên sàn rộng bằng hông. Đặt một quả tạ nằm ngang trên hông và giữ nhẹ bằng hai tay.",
+          "Đạp qua gót chân, siết mông đẩy hông lên cao đến khi thân trên – hông – đùi thành một đường thẳng, siết chặt mông ở điểm cao nhất.",
+          "Từ từ hạ hông xuống gần chạm sàn có kiểm soát rồi lặp lại. Giữ cơ bụng siết, không ưỡn lưng dưới."
+        ],
+        "videoUrl": "",
+        "sourceUrl": ""
+      }
+    ]
+  },
+  {
+    "id": "sat-pm",
+    "day": "Thứ 7",
+    "session": "Tối",
+    "tag": "Legs B",
+    "focus": "Bắp chân + Core",
+    "exercises": [
+      {
+        "id": "sat-pm-1",
+        "name": "Dumbbell Calf Raise",
+        "sets": "4",
         "reps": "15–20",
         "description": [
           "Đứng thẳng, cầm một quả tạ ở mỗi tay buông dọc thân. Có thể đứng bằng nửa trước bàn chân trên một bậc/khối để tăng biên độ.",
@@ -737,6 +727,45 @@
           "Hạ gót xuống chậm đến khi bắp chân căng hết rồi lặp lại. Giữ gối gần thẳng, không nhún."
         ],
         "videoUrl": "/videos/chan/calf-raise.mov",
+        "sourceUrl": ""
+      },
+      {
+        "id": "sat-pm-2",
+        "name": "Reverse Crunch",
+        "sets": "3",
+        "reps": "12–20",
+        "description": [
+          "Nằm ngửa, hai tay đặt xuôi thân (hoặc bám nhẹ hai bên), co gối và nâng đùi lên vuông góc sàn.",
+          "Siết cơ bụng dưới cuộn hông và gối về phía ngực, nhấc mông lên khỏi sàn (chuyển động nhỏ, do bụng chứ không do đà).",
+          "Hạ hông và chân xuống chậm có kiểm soát về vị trí ban đầu rồi lặp lại. Không đá chân lấy đà."
+        ],
+        "videoUrl": "/videos/bung/reverse-crunch.mov",
+        "sourceUrl": ""
+      },
+      {
+        "id": "sat-pm-3",
+        "name": "Bicycle Crunch",
+        "sets": "3",
+        "reps": "15–20/bên",
+        "description": [
+          "Nằm ngửa, hai tay đặt nhẹ sau đầu, nâng hai chân khỏi sàn, gối co khoảng 90°.",
+          "Xoay thân đưa khuỷu tay phải về phía gối trái đồng thời duỗi thẳng chân phải; rồi đổi bên: khuỷu trái về gối phải, duỗi chân trái.",
+          "Luân phiên nhịp nhàng như đạp xe, siết cơ bụng (nhất là cơ chéo). Xoay từ thân, không kéo cổ; mỗi bên tính một nhịp."
+        ],
+        "videoUrl": "/videos/bung/bicycle-crunch.mov",
+        "sourceUrl": ""
+      },
+      {
+        "id": "sat-pm-4",
+        "name": "Plank",
+        "sets": "3",
+        "reps": "30–60 giây",
+        "description": [
+          "Chống hai cẳng tay xuống sàn (khuỷu tay ngay dưới vai) và mũi chân, nâng người lên.",
+          "Giữ thân thành một đường thẳng từ đầu – lưng – hông – gót; siết chặt cơ bụng và cơ mông, hóp nhẹ xương chậu.",
+          "Giữ nguyên tư thế trong thời gian quy định, thở đều. Không để hông võng xuống hay chổng lên, không gồng vai lên tai."
+        ],
+        "videoUrl": "/videos/bung/plank.mov",
         "sourceUrl": ""
       }
     ]

@@ -4,50 +4,48 @@ import { ExerciseDetail } from './components/ExerciseDetail'
 import { WorkoutPlanList } from './components/WorkoutPlanList'
 
 function App() {
-  const [selected, setSelected] = useState<{ dayId: string; exerciseId: string } | null>(
+  const [selected, setSelected] = useState<{ sessionId: string; exerciseId: string } | null>(
     null,
   )
-  const [openDayId, setOpenDayId] = useState<string | null>(workoutPlan[0]?.id ?? null)
+  const [openSessionId, setOpenSessionId] = useState<string | null>(
+    workoutPlan[0]?.id ?? null,
+  )
 
   const selectedExercise = useMemo(() => {
     if (!selected) return null
 
-    const day = workoutPlan.find((d) => d.id === selected.dayId)
-    if (!day) return null
+    const session = workoutPlan.find((s) => s.id === selected.sessionId)
+    if (!session) return null
 
-    const index = day.exercises.findIndex((e) => e.id === selected.exerciseId)
+    const index = session.exercises.findIndex((e) => e.id === selected.exerciseId)
     if (index === -1) return null
 
-    const exercise = day.exercises[index]
-    // Chỉ điều hướng trong cùng một buổi (Sáng/Tối)
-    const sessionExercises = day.exercises.filter(
-      (e) => e.session === exercise.session,
-    )
-    const sessionIndex = sessionExercises.findIndex((e) => e.id === exercise.id)
-
-    return { day, exercise, sessionExercises, sessionIndex }
+    return { session, exercise: session.exercises[index], index }
   }, [selected])
 
   if (selectedExercise) {
-    const { day, exercise, sessionExercises, sessionIndex } = selectedExercise
-    const prev = sessionIndex > 0 ? sessionExercises[sessionIndex - 1] : null
+    const { session, exercise, index } = selectedExercise
+    const prev = index > 0 ? session.exercises[index - 1] : null
     const next =
-      sessionIndex < sessionExercises.length - 1
-        ? sessionExercises[sessionIndex + 1]
-        : null
+      index < session.exercises.length - 1 ? session.exercises[index + 1] : null
 
     return (
       <ExerciseDetail
         exercise={exercise}
-        dayLabel={exercise.session ? `${day.label} · ${exercise.session}` : day.label}
-        position={sessionIndex + 1}
-        total={sessionExercises.length}
+        title={session.focus}
+        subtitle={`${session.day} · ${session.session}`}
+        position={index + 1}
+        total={session.exercises.length}
         onBack={() => setSelected(null)}
         onPrev={
-          prev ? () => setSelected({ dayId: day.id, exerciseId: prev.id }) : undefined
+          prev
+            ? () => setSelected({ sessionId: session.id, exerciseId: prev.id })
+            : undefined
         }
         onNext={
-          next ? () => setSelected({ dayId: day.id, exerciseId: next.id }) : undefined
+          next
+            ? () => setSelected({ sessionId: session.id, exerciseId: next.id })
+            : undefined
         }
       />
     )
@@ -55,14 +53,14 @@ function App() {
 
   return (
     <WorkoutPlanList
-      days={workoutPlan}
-      openDayId={openDayId}
-      onToggleDay={(dayId) =>
-        setOpenDayId((current) => (current === dayId ? null : dayId))
+      sessions={workoutPlan}
+      openSessionId={openSessionId}
+      onToggleSession={(sessionId) =>
+        setOpenSessionId((current) => (current === sessionId ? null : sessionId))
       }
-      onSelectExercise={(dayId, exerciseId) => {
-        setOpenDayId(dayId)
-        setSelected({ dayId, exerciseId })
+      onSelectExercise={(sessionId, exerciseId) => {
+        setOpenSessionId(sessionId)
+        setSelected({ sessionId, exerciseId })
       }}
     />
   )

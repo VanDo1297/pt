@@ -2,7 +2,10 @@ import type { Exercise } from '../types/workout'
 
 interface ExerciseDetailProps {
   exercise: Exercise
-  dayLabel: string
+  /** Tiêu đề chính = nhóm cơ, vd "Ngực", "Vai + Triceps" */
+  title: string
+  /** Dòng phụ, vd "Thứ 3 · Sáng" */
+  subtitle: string
   position: number
   total: number
   onBack: () => void
@@ -12,7 +15,8 @@ interface ExerciseDetailProps {
 
 export function ExerciseDetail({
   exercise,
-  dayLabel,
+  title,
+  subtitle,
   position,
   total,
   onBack,
@@ -29,7 +33,8 @@ export function ExerciseDetail({
         </button>
       </header>
 
-      <p className="exercise-detail__day">{dayLabel}</p>
+      <p className="exercise-detail__day">{subtitle}</p>
+      <p className="exercise-detail__focus">{title}</p>
       <h1 className="exercise-detail__title">{exercise.name}</h1>
 
       {(exercise.sets || exercise.reps) && (
